@@ -11,9 +11,7 @@ class Television:
         self.__channel = self.MIN_CHANNEL
 
     def power(self):
-        """
-        status = :status:
-        """
+
         if self.__status == True:
             self.__status = False
         elif self.__status == False:
